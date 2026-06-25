@@ -1,0 +1,28 @@
+
+[window]
+# Give it a nice, padded border look (adjust numbers to your liking)
+padding = { x = 12, y = 12 }
+opacity = 0.85
+# Add a clean blur/opacity background (0.0 to 1.0)
+# Note: Opacity requires a compositor like picom if you're on X11/i3/bspwm
+
+# If you want to hide the window bar completely (uncomment if desired)
+# decorations = "None"
+
+[font]
+size = 9.00
+
+# Set a clean programming font (Make sure you install it via pacman first, e.g., ttf-jetbrains-mono-nerd)
+[font.normal]
+family = "BlexMono Nerd Font"
+style = "Regular"
+
+[env]
+# Ensures proper 256-color rendering across CLI apps
+TERM = "xterm-256color"
+
+[general]
+# Import the Catppuccin Mocha theme
+import = [
+    "~/.config/alacritty/catppuccin-mocha.toml"
+]
