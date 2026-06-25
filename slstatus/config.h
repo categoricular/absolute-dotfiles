@@ -66,16 +66,16 @@ static const char unknown_str[] = "n/a";
  */
 /* function            format argument */
 static const struct arg args[] = {
-    /* 1. WiFi (Blue Box for icon, clean text) */
-    {wifi_essid, "^b#89b4fa^^c#11111b^ 󰒢 ^d^^c#a6adc8^ %s ", "wlan0"},
-    {wifi_perc, "(%s%%)   ", "wlan0"},
+    /* 1. WiFi (Blue background stretches over everything) */
+    {wifi_essid, "^b#89b4fa^^c#11111b^ 󰖩 %s ", "wlan0"},
+    {wifi_perc, "(%s%%) ^d^  ", "wlan0"},
 
-    /* 2. Battery (Green Box for icon, clean text) */
-    {battery_perc, "^b#a6e3a1^^c#11111b^ 󰁹 ^d^^c#a6adc8^ %s%%   ", "BAT1"},
+    /* 2. Battery (Green background stretches over everything) */
+    {battery_perc, "^b#a6e3a1^^c#11111b^ 󰁹 %s%% ^d^  ", "BAT1"},
 
-    /* 3. Date (Mauve/Purple Box for icon, clean text) */
-    {datetime, "^b#cba6f7^^c#11111b^ 󰃭 ^d^^c#a6adc8^ %s   ", "%a %b %d"},
+    /* 3. Date (Mauve background stretches over everything) */
+    {datetime, "^b#cba6f7^^c#11111b^ 󰃭 %s ^d^  ", "%a %b %d"},
 
-    /* 4. Time (Peach Box for icon, clean text) */
-    {datetime, "^b#f9e2af^^c#11111b^ 󱑎 ^d^^c#a6adc8^ %s ", "%I:%M %p"},
+    /* 4. Time (Peach background stretches over everything) */
+    {datetime, "^b#f9e2af^^c#11111b^ 󱑎 %s ^d^", "%I:%M %p"},
 };

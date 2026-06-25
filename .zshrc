@@ -113,6 +113,5 @@ eval "$(starship init zsh)"
 alias ls='eza --icons --group-directories-first --color=always'
 alias ll='eza -alF --icons --group-directories-first'
 alias cat='bat --theme="Catppuccin Mocha"'
-alias grep='ripgrep'
 
 fastfetch
