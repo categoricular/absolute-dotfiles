@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Start your X11 compositor for Alacritty opacity
+# Start picom compositor for opacity
 picom -b &
 
-# Set a nice wallpaper (if using feh)
-# feh --bg-fill ~/Pictures/wallpapers/catppuccin_mocha.png &
+# wallpaper
+feh --bg-fill ~/wallpapers/tree.jpg
 
 # Start your status bar if you use slstatus
-# slstatus &
+slstatus &
