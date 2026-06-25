@@ -115,3 +115,4 @@ alias ll='eza -alF --icons --group-directories-first'
 alias cat='bat --theme="Catppuccin Mocha"'
 alias grep='ripgrep'
 
+fastfetch
