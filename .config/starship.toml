@@ -1,0 +1,27 @@
+# Get a clean, minimal symbol for the prompt
+format = """
+$directory\
+$git_branch\
+$git_status\
+$character"""
+
+# Move to a new line for commands
+add_newline = true
+
+[directory]
+style = "bold #cba6f7" # Mauve
+truncation_length = 3
+truncation_symbol = "…/"
+
+[character]
+success_symbol = "[❯](bold #a6e3a1)" # Green
+error_symbol = "[❯](bold #f38ba8)"   # Red
+
+[git_branch]
+symbol = " "
+style = "bold #f9e2af" # Yellow
+
+[git_status]
+style = "bold #f38ba8" # Red
+
+
