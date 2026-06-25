@@ -67,7 +67,7 @@ static const char unknown_str[] = "n/a";
 /* function            format argument */
 static const struct arg args[] = {
     /* 1. WiFi (Blue Box for icon, clean text) */
-    {wifi_essid, "^b#89b4fa^^c#11111b^ 󰖩 ^d^^c#a6adc8^ %s ", "wlan0"},
+    {wifi_essid, "^b#89b4fa^^c#11111b^ 󰒢 ^d^^c#a6adc8^ %s ", "wlan0"},
     {wifi_perc, "(%s%%)   ", "wlan0"},
 
     /* 2. Battery (Green Box for icon, clean text) */
